@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        ModelCalculate calculate = new ModelCalculate();
+        calculate.setAngka1(8);
+        calculate.setAngka2(9);
+        calculate.addAllNumber();
+        calculate.multiplyNumbers();
+        calculate.multiplyNumber(calculate.getAngka1(), calculate.getAngka2());
+    }
+}
